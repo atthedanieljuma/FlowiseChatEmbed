@@ -50,17 +50,17 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Powered by
+      What do you want
       <a
         ref={liteBadge}
-        href={'https://flowiseai.com'}
+        href={'https://play.google.com/store/apps/details?id=com.samaya.samayalogistics'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Flowise</span>
+        <span> delivered?</span>
       </a>
     </span>
   );
