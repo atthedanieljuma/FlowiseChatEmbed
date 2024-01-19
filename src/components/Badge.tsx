@@ -50,7 +50,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      What do you want
+      Start your journey
       <a
         ref={liteBadge}
         href={'https://play.google.com/store/apps/details?id=com.samaya.samayalogistics'}
@@ -60,7 +60,7 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> delivered?</span>
+        <span> now?</span>
       </a>
     </span>
   );
